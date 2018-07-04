@@ -1,7 +1,7 @@
 def reverse_each_word(string)
   stringArray = string.split(" ")
   stringArray.map do |letter|
-    stringArray << stringArray[0]
+    letter.reverse!
     stringArray.shift
   end
 end
