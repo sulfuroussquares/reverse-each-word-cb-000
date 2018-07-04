@@ -4,5 +4,4 @@ def reverse_each_word(string)
     stringArray << stringArray[0]
     stringArray.shift
   end
-
 end
